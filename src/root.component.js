@@ -1,5 +1,7 @@
 import React from "react";
+import Navbar from "./Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Root(props) {
-  return <h1>I am a micro-frontend</h1>;
+  return <Navbar></Navbar>;
 }
