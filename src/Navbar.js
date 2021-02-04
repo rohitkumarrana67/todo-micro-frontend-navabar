@@ -7,9 +7,9 @@ import {Link} from '@reach/router'
 
 const NavbarComponent = ( ) => {
     return (
-        <div style={{height:"7vh"}}>
+        <div style={{height:"60px"}}>
             <Navbar bg="secondary" expand="lg" style={{height:"100%"}}>
-              <Navbar.Brand style={{color: "white"}} href="#home">MICRO-FRONTEND</Navbar.Brand>
+              <Navbar.Brand style={{color: "white"}} href="/microfrontend">MICRO-FRONTEND</Navbar.Brand>
                 {links.map((link) => {
                   return (
                     <Nav.Link > 
